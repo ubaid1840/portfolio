@@ -54,7 +54,7 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				I specialize in delivering comprehensive digital solutions tailored to meet your diverse needs. My expertise spans across software development, web development, mobile app development, graphics design, UI/UX design, and social media marketing. I am dedicated to driving innovation and excellence in every project, ensuring you stay ahead in the competitive digital landscape. My team of skilled professionals and I work collaboratively to create cutting-edge, user-friendly, and visually stunning products that enhance your brand presence and elevate user experiences. Partner with me for reliable, creative, and impactful digital solutions.
+				I specialize in delivering comprehensive digital solutions tailored to meet your diverse needs. My expertise spans across software development, web development, mobile app development, graphics design, UI/UX design, social media marketing, virtual assistant services, content creation, and Excel automation. I am dedicated to driving innovation and excellence in every project, ensuring you stay ahead in the competitive digital landscape. My team of skilled professionals and I work collaboratively to create cutting-edge, user-friendly, and visually stunning products that enhance your brand presence and elevate user experiences. Partner with me for reliable, creative, and impactful digital solutions.
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (

@@ -7,6 +7,7 @@ import { SectionWrapper } from "./HigherOrderComponents";
 import { EarthCanvas } from "./canvas";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
+import toast from "react-hot-toast";
 
 const Contact = () => {
 	const formRef = useRef<HTMLFormElement>(null);
@@ -44,9 +45,7 @@ const Contact = () => {
 			)
 			.then(() => {
 				setLoading(false);
-				alert(
-					"A humble thanks for reaching me out. I will respond to you as soon as possible.",
-				);
+				toast.success('A humble thanks for reaching me out. I will respond to you as soon as possible.');
 				setForm({
 					name: "",
 					email: "",
@@ -55,7 +54,7 @@ const Contact = () => {
 			})
 			.catch(() => {
 				setLoading(false);
-				alert("Sorry!! Something went wrong!!");
+				toast.error('Sorry!! Something went wrong!!')
 			});
 	};
 
@@ -119,7 +118,7 @@ const Contact = () => {
 						type="submit"
 						className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
 					>
-						{loading ? "Sending..." : "Sent"}
+						{loading ? "Sending..." : "Send"}
 					</button>
 				</form>
 			</motion.div>

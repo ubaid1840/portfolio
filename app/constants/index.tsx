@@ -23,7 +23,23 @@ const services = [
 		icon: "/mobile.webp",
 	},
 	{
+		title: "UI UX Designing",
+		icon: "/backend.webp",
+	},
+	{
+		title: "Virtual Assistant",
+		icon: "/creator.webp",
+	},
+	{
+		title: "Excel Automation",
+		icon: "/mobile.webp",
+	},
+	{
 		title: "Graphics Designing",
+		icon: "/web.webp",
+	},
+	{
+		title: "Content Creation",
 		icon: "/backend.webp",
 	},
 	{
