@@ -31,8 +31,8 @@ const Contact = () => {
 		setLoading(true);
 		emailjs
 			.send(
-				"service_hwszcqr",
-				"template_zfqto9n",
+				"service_9tosc17",
+				"template_b8e3yf6",
 				{
 					from_name: form.name,
 					to_name: "Muhammad Usama",
@@ -40,7 +40,7 @@ const Contact = () => {
 					to_email: "usamanazir1@gmail.com",
 					message: form.message,
 				},
-				"J7rq4zfqMZrrcJ6Wq",
+				"eIyixeQjBtbp1q-qL",
 			)
 			.then(() => {
 				setLoading(false);
@@ -67,14 +67,15 @@ const Contact = () => {
 			>
 				<p className="heroSubText">Get in Touch</p>
 				<h3 className="heroHeadText">Contact.</h3>
-				
-				<div style={{display:'flex', alignItems:'center'}}>
-				<FaWhatsapp />
-					<div style={{fontSize:'13px', marginLeft:'10px'}}>+92 315 6888903</div>
+			<div style={{display:'flex', width:'100%', justifyContent:'space-between'}}>
+				<div style={{ display: 'flex', alignItems: 'center' }}>
+					<FaWhatsapp />
+					<div style={{ fontSize: '13px', marginLeft: '10px' }}>+92 315 6888903</div>
 				</div>
-				<div style={{display:'flex', alignItems:'center'}}>
-				<IoMailOutline />
-					<div style={{fontSize:'13px', marginLeft:'10px'}}>usamanazir1@gmail.com</div>
+				<div style={{ display: 'flex', alignItems: 'center' }}>
+					<IoMailOutline />
+					<div style={{ fontSize: '13px', marginLeft: '10px' }}>usamanazir1@gmail.com</div>
+				</div>
 				</div>
 				<form
 					ref={formRef}
