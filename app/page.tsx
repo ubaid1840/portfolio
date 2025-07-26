@@ -621,10 +621,10 @@ export default function Portfolio() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-white/60 mb-4 md:mb-0">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Ubaid Ur Rehman. All rights reserved.
             </div>
             <div className="flex space-x-6">
-              <a
+              {/* <a
                 href="https://github.com/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -639,7 +639,7 @@ export default function Portfolio() {
                 className="text-white/60 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"
               >
                 <Linkedin size={20} />
-              </a>
+              </a> */}
               <a
                 href="mailto:your.email@example.com"
                 className="text-white/60 hover:text-white transition-colors p-2 rounded-full hover:bg-white/5"
