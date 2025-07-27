@@ -373,7 +373,7 @@ export default function Portfolio() {
                 </span>
               </h2>
               <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-                With over 5 years of experience in full-stack development, I specialize in creating scalable,
+                With over 9 years of experience in full-stack development, I specialize in creating scalable,
                 user-centric applications that drive business growth.
               </p>
             </motion.div>
@@ -419,7 +419,7 @@ export default function Portfolio() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
-                className="relative"
+              className="relative hidden sm:block" 
               >
                 <div className="aspect-square bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-3xl flex items-center justify-center backdrop-blur-sm border border-white/10">
                   <div className="text-8xl">👨‍💻</div>
